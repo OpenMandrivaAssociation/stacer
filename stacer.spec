@@ -10,10 +10,15 @@ URL:            https://github.com/oguzhaninan/Stacer/
 Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  qt5-devel
+BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Charts)
+BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Help)
 BuildRequires:  pkgconfig(Qt5Svg)
+BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  cmake
+BuildRequires:  cmake(Qt5LinguistTools)
 
 %description
 Linux System Optimizer and Monitoring

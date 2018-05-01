@@ -19,7 +19,7 @@ BuildRequires:  cmake
 Linux System Optimizer and Monitoring
 
 %prep
-%autosetup -n %{upstream_name}-%{version}
+%setup -q
 
 %build
 %cmake_qt5

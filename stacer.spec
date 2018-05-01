@@ -12,7 +12,7 @@ Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{name
 BuildRequires:  qt5-devel
 BuildRequires:  qt5charts-devel
 BuildRequires:  qt5help-devel
-BuildRequires:  qt5svg-devel
+BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  cmake
 
 %description

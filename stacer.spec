@@ -10,8 +10,8 @@ URL:            https://github.com/oguzhaninan/Stacer/
 Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  qt5-devel
-BuildRequires:  qt5charts-devel
-BuildRequires:  qt5help-devel
+BuildRequires:  pkgconfig(Qt5Charts)
+BuildRequires:  pkgconfig(Qt5Help)
 BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  cmake
 

@@ -18,7 +18,7 @@ BuildRequires:  pkgconfig(Qt5Help)
 BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  cmake
-BuildRequires:  cmake(Qt5LinguistTools)
+BuildRequires:  qt5-linguist-tools
 
 %description
 Linux System Optimizer and Monitoring

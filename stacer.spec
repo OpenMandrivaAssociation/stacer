@@ -1,6 +1,6 @@
 %define         upstream_name Stacer
 
-Name:           Stacer
+Name:           stacer
 Version:        1.0.9
 Release:        %mkrel 1
 Summary:        Linux System Optimizer and Monitoring
@@ -19,7 +19,7 @@ BuildRequires:  cmake
 Linux System Optimizer and Monitoring
 
 %prep
-%setup -q
+%setup -q -n Stacer-%{version}
 
 %build
 %cmake_qt5

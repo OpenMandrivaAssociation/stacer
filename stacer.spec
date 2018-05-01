@@ -11,6 +11,7 @@ Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{name
 
 BuildRequires:  qt5-devel
 BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:  qt5-linguist-tools
 BuildRequires:	pkgconfig(Qt5Gui)
 BuildRequires:  pkgconfig(Qt5Charts)
 BuildRequires:  pkgconfig(Qt5Concurrent)
@@ -18,7 +19,7 @@ BuildRequires:  pkgconfig(Qt5Help)
 BuildRequires:  pkgconfig(Qt5Svg)
 BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  cmake
-BuildRequires:  qt5-linguist-tools
+
 
 %description
 Linux System Optimizer and Monitoring

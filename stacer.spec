@@ -1,6 +1,6 @@
 %define         upstream_name Stacer
 
-Name:           stacer
+Name:           Stacer
 Version:        1.0.9
 Release:        %mkrel 1
 Summary:        Linux System Optimizer and Monitoring

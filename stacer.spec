@@ -8,6 +8,7 @@ Group:          Monitoring
 License:        MIT
 URL:            https://github.com/oguzhaninan/Stacer/
 Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{oname}-%{version}.tar.gz
+Patch0:         stacer-1.0.9-fix-build-against-qt-5.11.0.patch
 
 BuildRequires:  qt5-devel
 BuildRequires:	pkgconfig(Qt5Core)
@@ -26,6 +27,7 @@ Linux System Optimizer and Monitoring
 
 %prep
 %setup -q -n Stacer-%{version}
+%patch0 -p1
 
 %build
 %cmake_qt5

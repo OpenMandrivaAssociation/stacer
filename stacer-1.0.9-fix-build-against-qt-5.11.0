@@ -1,0 +1,11 @@
+diff -Nru a/stacer/Pages/StartupApps/startup_app_edit.cpp b/stacer/Pages/StartupApps/startup_app_edit.cpp
+--- a/stacer/Pages/StartupApps/startup_app_edit.cpp	2018-03-09 21:05:52.000000000 +0100
++++ b/stacer/Pages/StartupApps/startup_app_edit.cpp	2018-06-04 02:45:36.907997418 +0200
+@@ -2,6 +2,7 @@
+ #include "ui_startup_app_edit.h"
+ #include "utilities.h"
+ #include <QDebug>
++#include <QStyle>
+ 
+ StartupAppEdit::~StartupAppEdit()
+ {

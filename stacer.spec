@@ -7,7 +7,7 @@ Summary:        Linux System Optimizer and Monitoring
 Group:          Monitoring
 License:        MIT
 URL:            https://github.com/oguzhaninan/Stacer/
-Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{upstream_name}-%{version}.tar.gz
 
 BuildRequires:  qt5-devel
 BuildRequires:	pkgconfig(Qt5Core)

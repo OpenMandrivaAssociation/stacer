@@ -1,4 +1,4 @@
-%define         upstream_name Stacer
+%define oname Stacer
 
 Name:           stacer
 Version:        1.0.9
@@ -7,7 +7,7 @@ Summary:        Linux System Optimizer and Monitoring
 Group:          Monitoring
 License:        MIT
 URL:            https://github.com/oguzhaninan/Stacer/
-Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{upstream_name}-%{version}.tar.gz
+Source0:        https://github.com/oguzhaninan/Stacer/archive/v%{version}/%{oname}-%{version}.tar.gz
 
 BuildRequires:  qt5-devel
 BuildRequires:	pkgconfig(Qt5Core)

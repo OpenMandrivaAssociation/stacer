@@ -2,7 +2,7 @@
 
 Name:           stacer
 Version:        1.0.9
-Release:        %mkrel 1
+Release:        1
 Summary:        Linux System Optimizer and Monitoring
 Group:          Monitoring
 License:        MIT
@@ -40,12 +40,3 @@ Linux System Optimizer and Monitoring
 %{_bindir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/%{name}.*
-
-
-
-%changelog
-* Tue Apr 10 2018 kekepower <kekepower> 1.0.9-1.mga7
-  (not released yet)
-+ Revision: 1217314
-- imported package stacer
-

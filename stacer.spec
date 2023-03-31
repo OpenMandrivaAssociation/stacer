@@ -2,7 +2,7 @@
 
 Name:           stacer
 Version:        1.1.0
-Release:        1
+Release:        2
 Summary:        Linux System Optimizer and Monitoring
 Group:          Monitoring
 License:        MIT
